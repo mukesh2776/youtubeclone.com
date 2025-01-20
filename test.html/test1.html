@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Html</title>
+</head>
+<body>
+    <style>
+        .first,.last{
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            border: grey solid 1px;
+            border-radius: 8px;
+            padding: 8px 8px;
+            width: 100px;
+            
+        }
+        .email{
+            display: block;
+            margin-top: 10px;
+            width: 222px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            border: grey solid 1px;
+            border-radius: 8px;
+            padding: 8px 8px;
+        }
+        .sign{
+            margin-top: 10px;
+            width: 222px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            border: grey solid 1px;
+            border-radius: 8px;
+            padding: 8px 8px;
+            text-align: center;
+            background-color: rgb(53, 87, 173);
+            
+            font-weight: bold;
+
+        }
+        .sign::placeholder{
+            color: aliceblue;
+        }
+    </style>
+    <input type="text" placeholder="First name " class="first">
+    <input type="text" placeholder="Last name" class="last">
+    <input type="text" placeholder="Email" class="email">
+    <input type="text" placeholder="Sign up" class="sign">
+</body>
+</html>

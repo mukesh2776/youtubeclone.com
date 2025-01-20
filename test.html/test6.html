@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test6 HTML</title>
+</head>
+<body>
+    <style>
+        body{
+            font-family: Roboto,Arial;
+        }
+        .container{
+            background-color: rgb(238, 235, 235);
+            height: 300px;
+            width: 300px;
+            position: relative;
+        }
+        .shirt-image{
+            position: absolute;
+            top: 50px;
+            bottom: 50px;
+            left: 50px;
+            right: 50px;
+            height: 200px;
+            width: 200px;
+            border: none;
+            background-color: rgb(231, 227, 227);
+            z-index: 1;
+            border-radius: 5px;
+        }
+        .offer{
+            width: 75px;
+            height: 25px;
+            background-color: black;
+            color: aliceblue;
+            font-size: 14px;
+            font-weight: 500;
+            position: absolute;
+            right: 0px;
+            top: -5px;
+            text-align: center;
+            padding-top: 6px;
+        }
+        .container2{
+            position: absolute;
+            height: 120px;
+            width: 300px;
+            background-color: rgb(195, 192, 192);
+            opacity: 0.7;
+            bottom: 0px;
+            z-index: 2;
+        }
+        .add-to-cart{
+            border: 1px solid black;
+            padding: 10px;
+            margin-left: 110px;
+            margin-top: 30px;
+            cursor: pointer;
+            background-color: aliceblue;
+            color: black;
+            font-size: 16px;
+            font-weight: 500;
+            
+        }
+
+    </style>
+    <div class="container">
+        <img src="images/shirt image2.jpg" class="shirt-image">
+        <p class="offer">20% OFF</p>
+        <div class="container2">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+   
+</body>
+</html>
